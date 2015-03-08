@@ -1,5 +1,8 @@
 module RPlot
 
-# package code goes here
+    using RCall
+
+    include("graphics.jl")
+    include("ggplot.jl")
 
 end # module
